@@ -1,7 +1,7 @@
-# stage1-image_classification
+# mask-multilabel-classifiaction-model
 사람 사진에서 마스크 착용 유무, 성별, 나이를 분류하는 Multi-label classification model
 
-## :floppy_disk: 데이터셋
+## :floppy_disk: 데이터
 train set : company 별 job과 규모    
 <img src="https://user-images.githubusercontent.com/43736669/94919776-fcce3780-04ef-11eb-8217-5b24a8303fef.png">  
 job_tags.csv : job 별 tag  (job에 대응되는 기술)  
