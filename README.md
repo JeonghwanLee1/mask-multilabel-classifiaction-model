@@ -2,8 +2,8 @@
 사람 사진에서 마스크 착용 유무, 성별, 나이를 분류하는 Multi-label classification model
 
 ## :floppy_disk: 데이터
-train set : 10대~60대의 마스크 착용, 미착용, 오착용(턱스크 등) 남녀 사진 12600장 및 연령, 성별 정보  
-test set : 10대~60대의 마스크 착용, 미착용, 오착용(턱스크 등) 남녀 사진 
+train set : 10대 ~ 60대의 마스크 착용, 미착용, 오착용(턱스크 등) 남녀 사진 12600장 및 연령, 성별 정보   
+test set : 10대 ~ 60대의 마스크 착용, 미착용, 오착용(턱스크 등) 남녀 사진 
  
 ## :computer: 모델   
 - Architecture  
@@ -24,7 +24,7 @@ Focal loss, Class-balance Loss 병합 사용(Class imbalance를 해결하기 위
 ![image](https://user-images.githubusercontent.com/43736669/114355611-a2064e80-9baa-11eb-8616-c23875f5ac9c.png)  
 CosineAnealingWarmRestarts, SGD 사용   
 
-- Data Augmentation 
+- Data Augmentation   
 Horizontal Flip, Center Crop, RandomRotation 사용  
 
 ## :chart_with_downwards_trend: Train  
@@ -34,8 +34,8 @@ Horizontal Flip, Center Crop, RandomRotation 사용
 각 fold의 최종 모델은 validation의 최저 loss를 가지는 모델로 선정  
 
 ## :thought_balloon: Future Work  
-- VS Code 등 IDE 사용
-- Tensorboard, wandb등 학습 관리 툴 사용
+- VS Code 등 IDE 사용  
+- Tensorboard, wandb등 학습 관리 툴 사용  
 - soft ensemble, soft labeling, TTA 등 다양한 기법 사용
 - 스파게티 코드 개선
 - logging
